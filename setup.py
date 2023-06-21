@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 setup(name='pycat',
 version='0.1',
@@ -7,5 +7,5 @@ url='https://github.com/loganjameshart/pycat',
 author='Logan James Hart',
 author_email='logan@loganjameshart.com',
 license='MIT',
-packages=['pycat']
+packages=find_packages()
 )
