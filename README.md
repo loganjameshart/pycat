@@ -31,8 +31,7 @@ you can close connections with the standard CTRL+C interrupt
 
 ### examples
 
-'''console
     pycat -l 8000
     
     Listening on 10.104.239.138:8000.
-'''
+
