@@ -33,5 +33,5 @@ you can close connections with the standard CTRL+C interrupt
 
     pycat -l 8000
     
-    Listening on 10.104.239.138:8000.
+    Listening on [host machine ip address]:8000.
 
