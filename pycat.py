@@ -15,7 +15,7 @@ HOST = socket.gethostbyname(socket.gethostname())
 
 
 def server(port: int, connection_limit=5):
-    """Returns TCP/IP socket object bound to 0.0.0.0 and chosen port.
+    """Returns TCP/IP socket object bound to host machine's IP Address and chosen port.
 
     :param port: port to which the socket object is bound.
     :param connection_limit: the maximum number of outside connections allowed
