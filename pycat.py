@@ -168,6 +168,7 @@ if __name__ == "__main__":
                     print(msg)
                 else:
                     print("Blank message received. Closing connection.")
+                    break
         except KeyboardInterrupt:
             print("Keyboard interrupt detected. Closing connection.")
 
