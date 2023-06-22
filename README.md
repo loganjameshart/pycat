@@ -18,7 +18,7 @@ in the directory with the pycat.py file, you can run the command with
 
     python3 pycat.py [flag] [arguments]
     
-to run this file as a standalone script in a chosen directory, you can do the following commands:
+to run this file as a standalone script without needing to be in the .py file's directory, you can do the following commands:
 
     sudo chmod +x pycat.py
     sudo cp pycat.py ~/bin/pycat(or another name)
