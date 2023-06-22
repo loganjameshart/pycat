@@ -14,7 +14,7 @@ import argparse
 HOST = socket.gethostbyname(socket.gethostname())
 
 
-def server(port: int, connection_limit=5):
+def server(port: int, connection_limit=5) -> socket.socket:
     """Returns TCP/IP socket object bound to host machine's IP Address and chosen port.
 
     :param port: port to which the socket object is bound.
@@ -34,7 +34,7 @@ def server(port: int, connection_limit=5):
         print(e)
 
 
-def client(host: str, port: int):
+def client(host: str, port: int) -> socket.socket:
     """Returns TCP/IP socket connected to chosen IP address and port.
 
     :param host: the IPv4 address to connect to.
