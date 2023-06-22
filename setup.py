@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="pycat",
     version="0.1",
-    description="makes boilerplate directory and files for Python projects",
+    description="a quick pure-Python version of netcat",
     url="https://github.com/loganjameshart/pytemplate",
     author="Logan James Hart",
     author_email="logan@loganjameshart.com",
