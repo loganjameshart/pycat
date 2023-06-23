@@ -19,7 +19,7 @@ def server(port: int, connection_limit=5) -> socket.socket:
 
     :param port: port to which the socket object is bound.
     :param connection_limit: the maximum number of outside connections allowed
-                connected to the new server socket.
+        to be connected to the new server socket.
     """
 
     try:
