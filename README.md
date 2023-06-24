@@ -1,5 +1,7 @@
 # pycat - quick and simple pure-Python version of netcat
 
+## currently fixing an issue with the server socket being unable to send messages.
+
 ### usage
 
     -h, --help          show this help message and exit
